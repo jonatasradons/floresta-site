@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #020802;
+  color: white;
+}
+
+.hero {
+  min-height: 100vh;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.10)),
+    url("assets/hero-floresta.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.conteudo {
+  margin-left: 8%;
+  max-width: 700px;
+}
+
+.sistema {
+  color: #8be36b;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 92px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 52px;
+  color: #9ade8e;
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+.descricao {
+  font-size: 22px;
+  color: #d6e8cf;
+  margin-top: 25px;
+  max-width: 620px;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 15px 28px;
+  background: #7cff4f;
+  color: #071407;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  box-shadow: 0 0 25px rgba(124, 255, 79, 0.45);
+}
+
+.botao:hover {
+  background: #a4ff7a;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    background-position: center;
+  }
+
+  .conteudo {
+    margin: 0 24px;
+  }
+
+  h1 {
+    font-size: 48px;
+    letter-spacing: 5px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .descricao {
+    font-size: 18px;
+  }
+}
